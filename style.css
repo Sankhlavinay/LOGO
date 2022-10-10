@@ -1,0 +1,25 @@
+body{
+	background-image: url(./night.jpg);
+	background-size: cover   ;
+	/*background-size:100%;*/
+}
+
+.box{
+	margin: 0 auto; /*for center*/
+	width: 400px;
+	height: 400px;
+}
+
+.box h1{
+	
+	width: 400px;
+	height: 400px;
+	background-image: conic-gradient(from -30deg at 31% 42%, red 0deg, red 90deg, blue 90deg, blue 180deg, green 180deg,green 270deg, yellow 270deg, yellow 360deg);
+	font-size: 20em;
+	margin-top: 20px;
+	padding-bottom: 50px;
+	font-family: sans-serif ;
+	background-clip: text;
+	color: transparent;
+	
+}
